@@ -64,7 +64,7 @@ int A;
 int B;
 int C;
 int IO;
-struct pcb \*link;
+struct pcb *link;
 
 /* In addition, include information that needs to be managed by each process.
 Examples would include information such as:
@@ -135,7 +135,3 @@ clang -o sched sched.c
 [data.txt](./data.txt)
 
 [data_large.txt](./data_large.txt)
-
-```
-
-```

@@ -62,17 +62,16 @@ int A;
 int B;
 int C;
 int IO;
-struct pcb \*link;
+struct pcb *link;
 
-       /* 이 외에도 프로세스 별로 관리해야 할 필요가 있는 정보들을 포함할 것.
-          예를 들면 다음과 같은 정보 등이 포함될 수 있을 것임.
-
+/* 이 외에도 프로세스 별로 관리해야 할 필요가 있는 정보들을 포함할 것.
+   예를 들면 다음과 같은 정보 등이 포함될 수 있을 것임.
 int remaining_cpu_time;
 int cburst;
 int remaining_cburst;
 int ioburst;
 int remaining_ioburst;
-\*/
+*/
 
 }pcb;
 
@@ -88,12 +87,12 @@ int count;
 - random number 생성을 위해서는 srand()와 함께 rand()를 쓰는 것이 가장 쉬운 방법일 것임.
 
 - 이 프로그램은 최소한 input file이름과 스케줄링 방식을 command-line argument로 받을 수 있어야 함. (즉 여러분의 실행화일의 이름이 'sched'라면 다음과 같이 수행할 수 있어야 함.)
-  sched <input 화일이름> <스케줄링 방식> ...
+  sched \<input 화일이름\> \<스케줄링 방식\> ...
 
 main()함수가 command-line argument를 받기 위해서는 다음과 같이 선언되어야 함.
 
 ```c
-int main(int argc, char \*\*argv)
+int main(int argc, char **argv)
 { ...
 }
 ```
