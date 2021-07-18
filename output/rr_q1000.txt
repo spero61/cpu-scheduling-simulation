@@ -1,0 +1,66 @@
+
+number of processes: 5
+
+-----------------------pid[3]---------------------
+(A: 100  C: 100  B: 1  IO: 0)
+(CPU burst: 1  IO burst: 0)
+Finishing time		:     209 time units
+Turnaround time		:     109 time units
+CPU time		:     100 time units
+IO time			:       0 time units
+Waiting time		:       9 time units
+---------------------------------------------------
+
+-----------------------pid[4]---------------------
+(A: 100  C: 500  B: 100  IO: 3)
+(CPU burst: 5  IO burst: 2)
+Finishing time		:    1902 time units
+Turnaround time		:    1802 time units
+CPU time		:     500 time units
+IO time			:      99 time units
+Waiting time		:    1203 time units
+---------------------------------------------------
+
+-----------------------pid[1]---------------------
+(A: 0  C: 500  B: 9  IO: 3)
+(CPU burst: 4  IO burst: 3)
+Finishing time		:    2047 time units
+Turnaround time		:    2047 time units
+CPU time		:     500 time units
+IO time			:     248 time units
+Waiting time		:    1299 time units
+---------------------------------------------------
+
+-----------------------pid[0]---------------------
+(A: 0  C: 200  B: 3  IO: 3)
+(CPU burst: 1  IO burst: 2)
+Finishing time		:    2356 time units
+Turnaround time		:    2356 time units
+CPU time		:     200 time units
+IO time			:     199 time units
+Waiting time		:    1957 time units
+---------------------------------------------------
+
+-----------------------pid[2]---------------------
+(A: 0  C: 500  B: 20  IO: 30)
+(CPU burst: 7  IO burst: 18)
+Finishing time		:    2363 time units
+Turnaround time		:    2363 time units
+CPU time		:     500 time units
+IO time			:    1207 time units
+Waiting time		:     656 time units
+---------------------------------------------------
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~SUMMARY~~~~~~~~~~~~~~~~~~~~~~~~
+
+----------------Round Robin----------------
+Finishing time			:      2363 time units
+CPU Utilization			:      97.2 %
+IO Utilization			:      74.2 %
+Throughput per 100 time units	:  0.211595 processes
+Average Turnaround Time		:   1735.40 time units
+Average Waiting Time		:   1024.80 time units
+Quantum for Rount Robin		:      1000
+------------------------------------------------------------
+

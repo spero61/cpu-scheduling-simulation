@@ -1,0 +1,65 @@
+
+number of processes: 5
+
+-----------------------pid[3]---------------------
+(A: 100  C: 100  B: 1  IO: 0)
+(CPU burst: 1  IO burst: 0)
+Finishing time		:     217 time units
+Turnaround time		:     117 time units
+CPU time		:     100 time units
+IO time			:       0 time units
+Waiting time		:      17 time units
+---------------------------------------------------
+
+-----------------------pid[4]---------------------
+(A: 100  C: 500  B: 100  IO: 3)
+(CPU burst: 50  IO burst: 2)
+Finishing time		:     997 time units
+Turnaround time		:     897 time units
+CPU time		:     500 time units
+IO time			:       9 time units
+Waiting time		:     388 time units
+---------------------------------------------------
+
+-----------------------pid[2]---------------------
+(A: 0  C: 500  B: 20  IO: 30)
+(CPU burst: 20  IO burst: 11)
+Finishing time		:    1495 time units
+Turnaround time		:    1495 time units
+CPU time		:     500 time units
+IO time			:     240 time units
+Waiting time		:     755 time units
+---------------------------------------------------
+
+-----------------------pid[0]---------------------
+(A: 0  C: 200  B: 3  IO: 3)
+(CPU burst: 3  IO burst: 3)
+Finishing time		:    1732 time units
+Turnaround time		:    1732 time units
+CPU time		:     200 time units
+IO time			:     132 time units
+Waiting time		:    1400 time units
+---------------------------------------------------
+
+-----------------------pid[1]---------------------
+(A: 0  C: 500  B: 9  IO: 3)
+(CPU burst: 4  IO burst: 1)
+Finishing time		:    2027 time units
+Turnaround time		:    2027 time units
+CPU time		:     500 time units
+IO time			:       0 time units
+Waiting time		:    1527 time units
+---------------------------------------------------
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~SUMMARY~~~~~~~~~~~~~~~~~~~~~~~~
+
+----------------First Come First Served (FCFS)----------------
+Finishing time			:      2027 time units
+CPU Utilization			:     100.0 %
+IO Utilization			:      18.8 %
+Throughput per 100 time units	:  0.246670 processes
+Average Turnaround Time		:   1253.60 time units
+Average Waiting Time		:    817.40 time units
+------------------------------------------------------------
+
